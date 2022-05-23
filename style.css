@@ -1,0 +1,31 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+#btn_clr {
+    font-size: 25px;
+    border: 1px transparent;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+#btn_1, #btn_2, #btn_3, #btn_sum, #btn_4, #btn_5, #btn_6, #btn_dif {
+    border: 1px transparent;
+    font-size: 20px;
+}
+
+#btn_7, #btn_8, #btn_9, #btn_0, #btn_division, #btn_calc, #btn_sqr, #btn_mult {
+    border: 1px transparent;
+    font-size: 20px;
+}
