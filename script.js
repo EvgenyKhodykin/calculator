@@ -16,9 +16,9 @@ document.querySelector('#btn_sum').addEventListener('click',()=> {
     inputWindow.value = '';
 })
 
-document.querySelector('#btn_dif').addEventListener('click',()=> {
+document.querySelector('#btn_sub').addEventListener('click',()=> {
     lastOperand = parseInt(inputWindow.value);
-    operation = 'dif';
+    operation = 'sub';
     inputWindow.value = '';
 })
 
@@ -46,7 +46,7 @@ document.querySelector('#btn_calc').addEventListener('click',()=> {
         operation = 0;
         inputWindow.value = result;
     }
-    if (operation === 'dif'){
+    if (operation === 'sub'){
         const result = lastOperand - parseInt(inputWindow.value);
         operation = 0;
         inputWindow.value = result;
